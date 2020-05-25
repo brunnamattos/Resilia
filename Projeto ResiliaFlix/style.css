@@ -37,7 +37,6 @@ h1 {
 }
 
 main {
-    min-height: calc (100vh - 66.31 - 76.31 );
     padding: 30px 20px;
     margin: 0 auto;
     display: flex;
@@ -87,4 +86,15 @@ footer {
 .insta {
     height: 24px;
     width: 24px;
+}
+
+@media (max-width: 600px) {
+    header {
+        justify-content: center;
+    }
+
+    .menu a {
+        flex-direction: column;
+    }
+    
 }
